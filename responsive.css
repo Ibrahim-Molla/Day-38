@@ -1,0 +1,86 @@
+.header{
+    padding: 5px 0
+}
+
+
+@media (max-width:1330px) {
+    .fixed-width {
+        width: 100%;
+        max-width:100%;
+        margin: auto;
+        padding-left: 20px ;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:1030px) {
+    .header-right{
+        width: 100%;
+        text-align: center;
+    }
+    .header-left{
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul{
+        text-align: center;
+    }
+    .header-left img{
+        width: 30%;
+        height: auto;
+    }
+    .services-item h3{
+        font-size: 20px;
+    }
+}
+@media (max-width:768px) {
+    .header-right ul li a{
+        padding: 0 18px;
+        border-right: none;
+        line-height: 55px;
+    }
+    .banner{
+        padding: 150px 0;
+    }
+    .service{
+        padding: 20px;
+    }
+    .services-item{
+        width: 100%;
+        margin: 10px 0;
+        padding: 25px 10px;
+    }
+    .blog-left{
+        width: 100%;
+    }
+    .blog-right{
+        width: 100%;
+    }
+    .footer-left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .social-menu{
+        text-align: center;
+    }
+    .footer-right{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+}
+@media (max-width:576px) {
+    .banner{
+        padding: 120px 0;
+    }
+    .banner-caption h1{
+        font-size: 15px;
+        padding: 5px 0
+    }
+    .banner-caption h2{
+        font-size: 20px;
+        padding: 5px 0
+
+}
